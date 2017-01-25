@@ -31,7 +31,5 @@ The reader is supposed to have worked with at least a project with the .NET plat
 
 * [C# 6 and .NET Core 1.0: Modern Cross-Platform Development](https://www.packtpub.com/application-development/c-6-and-net-core-10?utm_source=github&utm_medium=repository&utm_campaign=9781785285691)
 
-* []()
-
 ###Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
