@@ -1,0 +1,78 @@
+﻿<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Chapter 13: </h1>
+                <h2>Reactive Programming using RxJS</h2>
+            </hgroup>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        <h3>RxJS Samples:</h3>
+        <ol class="round">
+            <li class="one">
+                <h5>Spell Checker</h5>
+                <script type="text/javascript" src="~/Scripts/rx.lite.js"></script>
+                <script type="text/javascript" src="~/Scripts/rx.dom.js"></script>
+                <script type="text/javascript">
+                    var textInput;
+                    var throttledInput;
+                    var suggestions;
+                    var resultList;
+                    function initialize() {
+                        textInput = document.querySelector('#textInput');
+                        console.log(textInput);
+                        throttledInput = Rx.DOM.keyup(textInput)
+                                .do(function (msg) {
+                                    console.log(msg.key);
+                                })
+                                .pluck('target', 'value')
+                                .filter(function (text) {
+                                    return text.length > 3;
+                                })
+                                .debounce(500)
+                                .distinctUntilChanged();
+                        suggestions = throttledInput.flatMapLatest(SpellChecker);
+                        resultList = document.getElementById('results');
+                        suggestions.subscribe(
+                            function (data) {
+                                var results = data.response;
+                                clearSelector(resultList);
+                                for (var i = 0; i < results.length; i++) {
+                                    resultList.appendChild(createLineItem(results[i]));
+                                }
+                            },
+                            function (e) {
+                                console.log("Error!", e);
+                                clearSelector(resultList);
+                                resultList.appendChild(createLineItem('Error: ' + e));
+                            }
+                        );
+                    }
+
+                    function SpellChecker(term) {
+                        var url = 'http://localhost:18679/api/values/?Lookup='
+                          + encodeURIComponent(term) + '&Count=5&format=json&callback=JSONPCallback';
+                        return Rx.DOM.jsonpRequest(url);
+                    }
+
+                    function clearSelector(element) {
+                        while (element.firstChild) {
+                            element.removeChild(element.firstChild);
+                        }
+                    }
+
+                    function createLineItem(text) {
+                        var li = document.createElement('li');
+                        li.innerHTML = text;
+                        return li;
+                    }
+
+                    Rx.DOM.ready().subscribe(initialize);
+                </script>
+                <input id="textInput" type="text"/>
+                <ul id="results"></ul>
+            </li>
+        </ol>
+    </section>
+</div>

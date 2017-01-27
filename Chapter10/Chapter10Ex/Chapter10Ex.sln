@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstExample", "ConsoleApplication1\FirstExample.csproj", "{72C54B71-7136-462E-A0CF-F303CDE0E11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{0A6E8EB2-D1D6-4AA9-845A-388516765A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce", "MapReduce\MapReduce.csproj", "{5AE7EF65-1831-4A7D-A835-AD26CBDC44E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{C6A6E2C6-A4D6-43D7-82BA-03CB53E52CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C54B71-7136-462E-A0CF-F303CDE0E11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C54B71-7136-462E-A0CF-F303CDE0E11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C54B71-7136-462E-A0CF-F303CDE0E11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C54B71-7136-462E-A0CF-F303CDE0E11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6E8EB2-D1D6-4AA9-845A-388516765A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6E8EB2-D1D6-4AA9-845A-388516765A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6E8EB2-D1D6-4AA9-845A-388516765A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6E8EB2-D1D6-4AA9-845A-388516765A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE7EF65-1831-4A7D-A835-AD26CBDC44E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE7EF65-1831-4A7D-A835-AD26CBDC44E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE7EF65-1831-4A7D-A835-AD26CBDC44E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE7EF65-1831-4A7D-A835-AD26CBDC44E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A6E2C6-A4D6-43D7-82BA-03CB53E52CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A6E2C6-A4D6-43D7-82BA-03CB53E52CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A6E2C6-A4D6-43D7-82BA-03CB53E52CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A6E2C6-A4D6-43D7-82BA-03CB53E52CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+{
+  "name": "twitter-node-client",
+  "description": "Twitter JS Client",
+  "version": "0.0.6",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "qs": "*",
+    "oauth": "*"
+  },
+  "gitHead": "df770765fc61d2c70df5e557f6aa19b1b141f9ae",
+  "_id": "twitter-node-client@0.0.6",
+  "scripts": {},
+  "_shasum": "99ac607adf73d85b91e94ee2e71bdb6858b01377",
+  "_from": "twitter-node-client@latest",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "boycook",
+    "email": "boycook@me.com"
+  },
+  "dist": {
+    "shasum": "99ac607adf73d85b91e94ee2e71bdb6858b01377",
+    "tarball": "https://registry.npmjs.org/twitter-node-client/-/twitter-node-client-0.0.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "boycook",
+      "email": "boycook@me.com"
+    }
+  ],
+  "_resolved": "https://registry.npmjs.org/twitter-node-client/-/twitter-node-client-0.0.6.tgz"
+}

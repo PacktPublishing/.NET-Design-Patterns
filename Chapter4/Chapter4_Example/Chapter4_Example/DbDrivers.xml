@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<entries>
+  <entry key ="SQLITE" value="Chapter4_Example.SQLiteDbFactory"/>
+  <entry key="SQLSERVER" value="Chapter4_Exanple.SQLServerDbFactory"/>
+  <entry key="NULL" value ="Chapter4_Example.NULLDbFactory"/>
+</entries>

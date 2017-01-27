@@ -1,0 +1,6 @@
+D:\Packt\Code\DNDP\C9\bin\Debug\C9.exe.config
+D:\Packt\Code\DNDP\C9\bin\Debug\C9.exe
+D:\Packt\Code\DNDP\C9\bin\Debug\C9.pdb
+D:\Packt\Code\DNDP\C9\obj\Debug\C9.csprojResolveAssemblyReference.cache
+D:\Packt\Code\DNDP\C9\obj\Debug\C9.exe
+D:\Packt\Code\DNDP\C9\obj\Debug\C9.pdb

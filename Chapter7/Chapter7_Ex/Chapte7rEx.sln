@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter7Ex", "Chapter7Ex\Chapter7Ex.csproj", "{3AD76675-7B7A-4347-AF4C-324966329A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerables", "Enumerables\Enumerables.csproj", "{60A62D9E-FD39-4174-9A2F-5C86F8D1D476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSer", "XMLSer\XMLSer.csproj", "{0A81E5D8-3384-4D7F-BA0A-E4D9A5824215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD76675-7B7A-4347-AF4C-324966329A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD76675-7B7A-4347-AF4C-324966329A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD76675-7B7A-4347-AF4C-324966329A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD76675-7B7A-4347-AF4C-324966329A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A62D9E-FD39-4174-9A2F-5C86F8D1D476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A62D9E-FD39-4174-9A2F-5C86F8D1D476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A62D9E-FD39-4174-9A2F-5C86F8D1D476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A62D9E-FD39-4174-9A2F-5C86F8D1D476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A81E5D8-3384-4D7F-BA0A-E4D9A5824215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A81E5D8-3384-4D7F-BA0A-E4D9A5824215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A81E5D8-3384-4D7F-BA0A-E4D9A5824215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A81E5D8-3384-4D7F-BA0A-E4D9A5824215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

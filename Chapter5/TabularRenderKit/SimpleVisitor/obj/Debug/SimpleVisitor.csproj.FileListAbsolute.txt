@@ -1,0 +1,6 @@
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\bin\Debug\SimpleVisitor.exe.config
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\bin\Debug\SimpleVisitor.exe
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\bin\Debug\SimpleVisitor.pdb
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\obj\Debug\SimpleVisitor.csprojResolveAssemblyReference.cache
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\obj\Debug\SimpleVisitor.exe
+D:\Packt\Final_Source_Code\Chapter5\TabularRenderKit\SimpleVisitor\obj\Debug\SimpleVisitor.pdb

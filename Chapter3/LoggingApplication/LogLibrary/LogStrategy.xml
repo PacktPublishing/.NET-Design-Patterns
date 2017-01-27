@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entries>
+  <entry key ="DB" value="LogLibrary.DbLogStrategy"/>
+  <entry key="NET" value="LogLibrary.NetLogStrategy"/>
+  <entry key="FILE" value="LogLibrary.FileLogStrategy"/>
+  <entry key="NULL" value ="LogLibrary.NullLogStrategy"/>
+</entries>

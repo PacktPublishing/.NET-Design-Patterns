@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<plugins>
+  <plugin archetype ="OrindaryCitizen" command="TaxEngine.OrdinaryCitizenCommand"/>
+  <plugin archetype="SeniorCitizen" command="TaxEngine.SeniorCitizenCommand"/>
+  <plugin archetype="SeniorCitizenFemale" command="TaxEngine.SeniorCitizenFemaleCommand"/>
+  <plugin archetype="Others" command ="TaxEngine.OthersCommand"/>
+</plugins>
